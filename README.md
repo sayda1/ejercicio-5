@@ -3,15 +3,18 @@ Inicio:Objetivo de squad
 
 ## Variables
 
-- puntosMinimo
-- puntosMaximo
-- objetivo 80%
+- puntos_Squad
+- max_Puntos
+- procentaje-squad
+- resultado
 
 ## Proceso
-
-- obtener puntos como minimo 80%
--  pedir costo por minuto
-- multiplicar tiempo por costo de minuto
-- mostrar costo de llamada
-
+- pedir puntosSquad
+- pedir maxPuntos
+- calcular porcntaje
+- 100 * (Puntos_Squad) / max_puntos
+- si porcentaje squad es mayor 80 
+  -mostras mensaje "muy bien squad" 
+si no
+  - mostras mensaje "pueden hacerlo mejor"
 #fin#
